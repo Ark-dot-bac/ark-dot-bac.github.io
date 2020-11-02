@@ -1,0 +1,29 @@
+.nav{
+    background: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+#logo{
+    flex: 1;
+}
+#flavours{
+    flex: 1;
+}
+#events{
+    flex: 1;
+}
+.nav > #logo > a:hover, .nav > #events > a:hover, .nav > #flavours > a:hover{
+    font-size: 1.1em;
+    font-weight: bold;
+}
+.nav > #logo > a, .nav > #events > a, .nav > #flavours > a{
+    font-size: 1em;
+}
+ul{
+    list-style: none;
+}
+li{
+    display: inline-block;
+}

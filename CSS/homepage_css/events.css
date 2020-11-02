@@ -1,0 +1,70 @@
+.events-img{
+    background-image: url('../../images/seemi-samuel-4qJdtfJ2MmQ-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.events-des, .events-vid{
+    background-color: whitesmoke;
+    line-height: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.events-vid{
+    background: url('../../images/nafinia-putra-Kwdp-0pok-I-unsplash.jpg') #cccccc;
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 108vh;
+    color: whitesmoke;
+}
+.events-des > h1{
+    flex: 2;
+    padding: 9vh 3vh 2vh 3vh;
+    font-weight: 900;
+    font-size: 2rem;
+}
+.events-vid > h1{
+    flex: 300px;
+    display: inline;
+    font-size: 3rem;
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+}
+.events-des > p{
+    flex: 6;
+    padding: 0vh 3vh 1rem 3vh;
+    font-weight: 400;
+}
+.events-vid > p{
+    flex: 1;
+    display: inline-block;
+    font-size: 2rem;
+    margin-top: 10rem;
+    margin-bottom: 1rem;
+}
+.events-des > button, .events-vid > button{
+    padding: 1rem 2rem;
+    margin: 0rem 1rem 2.5rem 1rem;
+    background: transparent;
+    border: solid;
+    font-weight: bold;
+}
+.events-vid > button{
+    color: whitesmoke;
+    margin-bottom: 400px;
+    display: inline-block;
+}
+.events-des > button:hover{
+    background-color: black;
+    color: whitesmoke;
+    cursor: pointer;
+}
+.events-vid > button:hover{
+    background-color: whitesmoke;
+    color: black;
+    cursor: pointer;
+    border-color: whitesmoke;
+}

@@ -1,0 +1,17 @@
+*{
+    margin: 0em;
+    padding:0em;
+    box-sizing: border-box;
+    font-size: large;
+    font-family: cursive;
+    text-decoration: none;
+}
+*:visited{
+    color: inherit;
+    font-family: "Sacramento", sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.nav {height: 5.5rem;}

@@ -1,0 +1,38 @@
+*{
+  margin: 0em;
+  padding:0em;
+  box-sizing: border-box;
+  font-size: large;
+  font-family: cursive;
+  text-decoration: none;
+}
+*:visited{
+  color: inherit;
+  font-family: "Sacramento", sans-serif;
+}
+.nav { grid-area: 1 / 1 / span 1 / span 24}
+.main { grid-area: 2 / 1 / span 8 / span 24}
+.flavours-img { grid-area: 8 / 1 / span 4 / span 24}
+.flavours-des { grid-area: 12 / 1 / span 4 / span 24}
+.flavours-vid { grid-area: 16 / 1 / span 4 / span 24}
+.events-img { grid-area: 20 / 1 / span 4 / span 24}
+.events-des { grid-area: 24 / 1 / span 4 / span 24}
+.events-vid { grid-area: 28 / 1 / span 4 / span 24}
+.footer { grid-area: 32 / 1 / span 5 / span 24}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(24, 1fr);
+  grid-template-rows: repeat(36, 18vh);
+}
+@media screen and (min-width: 740px){
+    .nav { grid-area: 1 / 1 / span 1 / span 24}
+    .main { grid-area: 2 / 1 / span 7 / span 24}
+    .flavours-img { grid-area: 9 / 1 / span 6 / span 12}
+    .flavours-des { grid-area: 9 / 13 / span 6 / span 12}
+    .flavours-vid { grid-area: 15 / 1 / span 6 / span 24}
+    .events-des { grid-area: 21 / 1 / span 6 / span 12}
+    .events-img { grid-area: 21 / 13 / span 6 / span 12}
+    .events-vid { grid-area: 27 / 1 / span 6 / span 24}
+    .footer { grid-area: 33 / 1 / span 5 / span 24}
+}

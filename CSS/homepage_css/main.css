@@ -1,0 +1,48 @@
+.main{
+    background-color: whitesmoke;
+    line-height: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: url('../../images/jeswin-thomas-TyV8uETpfOg-unsplash.jpg') #bbbbbb;
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 126vh;
+    color: whitesmoke;
+}
+.main > h1{
+    flex: 300px;
+    display: inline;
+    font-size: 4rem;
+    margin-bottom: 7rem;
+    margin-top: 3rem;
+}
+.main > p{
+    flex: 1;
+    display: inline-block;
+    font-size: 2rem;
+    margin-top: 10rem;
+    margin-bottom: 1rem;
+}
+.main> button{
+    padding: 1rem 2rem;
+    margin: 0rem 1rem 2.5rem 1rem;
+    background: transparent;
+    border: solid;
+    font-weight: bold;
+    color: whitesmoke;
+    margin-bottom: 400px;
+    display: inline-block;
+}
+.main > button:hover{
+    background-color: black;
+    color: whitesmoke;
+    cursor: pointer;
+    border-color: black;
+}
+.main > a{
+    color: whitesmoke;
+}

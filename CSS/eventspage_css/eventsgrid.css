@@ -1,0 +1,29 @@
+*{
+    margin: 0em;
+    padding:0em;
+    box-sizing: border-box;
+    font-size: large;
+    font-family: cursive;
+    text-decoration: none;
+}
+*:visited{
+    color: inherit;
+    font-family: "Sacramento", sans-serif;
+}
+.event-list{
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+    grid-template-rows: auto;
+    grid-gap: 1em;
+    margin: 3%;
+}
+.container{
+    background: url('../../images/ethan-hu-Vrb5X-UKAb8-unsplash.jpg') #aaaaaa;
+    background-position: center;
+    background-size: contain;
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+}
+
+.nav {height: 5.5rem;}

@@ -1,0 +1,71 @@
+.flavours-img{
+    background-image: url('../../images/kobby-mendez-q54Oxq44MZs-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.flavours-des, .flavours-vid{
+    background-color: whitesmoke;
+    line-height: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.flavours-vid{
+    background: url('../../images/lama-roscu-Wpg3Qm0zaGk-unsplash.jpg') #cccccc;
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 108vh;
+    color: whitesmoke;
+}
+.flavours-des > h1{
+    flex: 2;
+    padding: 9vh 3vh 2vh 3vh;
+    font-weight: 600;
+    font-size: 2rem
+}
+.flavours-vid > h1{
+    flex: 300px;
+    display: inline;
+    line-height: 3rem;
+    font-size: 4rem;
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+}
+.flavours-des > p{
+    flex: 6;
+    padding: 0vh 3vh 1rem 3vh;
+    font-weight: 400;
+}
+.flavours-vid > p{
+    flex: 1;
+    display: inline-block;
+    font-size: 2rem;
+    margin-top: 10rem;
+    margin-bottom: 1rem;
+}
+.flavours-des > button, .flavours-vid > button{
+    padding: 1rem 2rem;
+    margin: 0rem 1rem 2.5rem 1rem;
+    background: transparent;
+    border: solid;
+    font-weight: bold;
+}
+.flavours-vid > button{
+    color: whitesmoke;
+    margin-bottom: 400px;
+    display: inline-block;
+}
+.flavours-des > button:hover{
+    background-color: black;
+    color: whitesmoke;
+    cursor: pointer;
+}
+.flavours-vid > button:hover{
+    background-color: whitesmoke;
+    color: black;
+    cursor: pointer;
+    border-color: whitesmoke;
+}
